@@ -35,7 +35,6 @@ $(function() {
     //when the check button is clicked, toggle the .shopping-item__checked class on the closest li
 
     $('ul').on('click', 'button.shopping-item-toggle', function(event) {
-        console.log($(this).parent().siblings());
         $(this).parent().siblings().toggleClass('shopping-item__checked');
     });
 
